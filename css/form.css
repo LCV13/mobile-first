@@ -1,0 +1,100 @@
+
+:root {
+  --dark-color: #1b262c;
+  --blue-color: #0f4c75;
+  --bluelight-color: #3282b8;
+  --light-color: #bbe1fa;
+  --purple-color: #6f4a8e;
+  --poppins: "Poppins", sans-serif;
+  --raleway: 'Raleway', sans-serif;
+}
+/*              Homepage Design             */
+
+.navbar {
+  background-color: #002f49a2;
+}
+.navbar-brand {
+  padding-left: 30px;
+  font-family: var(--raleway);
+  font-size: 2rem;
+  color: var(--blue-color);
+}
+
+.navbar-brand .logo{
+  width: 25px;
+  margin-right: 10px;
+}
+.nav-item {
+  padding: 0em 1.3em;
+}
+.nav-link {
+  font-family: var(--raleway);
+  color: #fff;
+  font-size: 1.1em;
+}
+.nav-link:hover {
+  color: var(--blue-color);
+}
+
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    margin: 10px;
+    color: #333;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario{
+    max-width: 60%;
+    max-height: 60%;
+    left: 50%;
+    position: center;
+   }
+  
+   input[type="text"],
+   input[type="text"],
+   input[type="email"]{
+     width: 90%;
+     height: 40px;
+     border: 1px solid #333;
+     border-radius: 5px;
+     margin: 5px;
+   }
+  
+   textarea[type="text"]{
+    width: 90%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 5px;
+    min-height: 200px;
+    max-height: 200px;
+  }
+  
+  input[type="submit"]{
+    width: 90%;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: var(--blue-color);
+    font-family: var(--raleway);
+    color: #fff;
+  }
+
+  input[type="submit"]:hover{
+    background: var(--bluelight-color);
+  }
+
+  input[type="submit"]:focus{
+    background: var(--bluelight-color);
+  }
